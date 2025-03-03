@@ -2,3 +2,4 @@
 
 ## Exercises
 - [Cat Photo App](./cat_photo_app.html)
+- [Cafe Menu](./cafe_menu/)
