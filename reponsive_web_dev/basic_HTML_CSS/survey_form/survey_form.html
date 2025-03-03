@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./survey_form_css.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">chocolatefactory survey form</h1>
+    <p id="description">what do you think of the new specials?</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required />
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required />
+        <label id="number-label" for="number">Age</label>
+        <input id="number" type="number" name="number" min="1" max="150" placeholder="Age" required />
+      </fieldset>
+      <!--Special name suggestion-->
+      <label for="specials">Which sounds more tasty?
+        <select id="specials" name="specials">
+          <option value="choco_delight">ChocoLuxe Delight</option>
+          <option value="cocoa_dream">Cocoa Dream Sundae</option>
+          <option value="velvet_bliss">Velvet Chocolate Bliss</option>
+        </select>
+      </label>
+      <!--In-house or Takeaway-->
+      <fieldset>
+        <legend>I would enjoy this more</legend>
+        <label for="in_house"><input type="radio" id="in_house" name="best_place" value="in_house" class="inline" />In-house</label>
+        <label for="takeaway"><input type="radio" id="takeaway" name="best_place" value="takeaway" class="inline" />To go (Takeaway)</label>
+      </fieldset>
+      <!--Topping Suggestions-->
+      <fieldset>
+        <legend>Preferred toppings</legend>
+        <label for="whipped_cream"><input type="checkbox" id="whipped_cream" name="whipped_cream" value="whipped_cream" class="inline" />Whipped Cream</label>
+        <label for="crushed_nuts"><input type="checkbox" id="crushed_nuts" name="crushed_nuts" value="crushed_nuts" class="inline" />Crushed Nuts</label>
+        <label for="fresh_berries"><input type="checkbox" id="fresh_berries" name="fresh_berries" value="fresh_berries" class="inline" />Fresh Berries</label>
+        <label for="chocolate_shavings"><input type="checkbox" id="chocolate_shavings" name="chocolate_shavings" value="chocolate_shavings" class="inline" />Chocolate Shavings</label>
+        <label for="caramel_drizzle"><input type="checkbox" id="caramel_drizzle" name="caramel_drizzle" value="caramel_drizzle" class="inline" />Caramel Drizzle</label>
+      </fieldset>
+      <!--Drink Pairings-->
+      <fieldset>
+        <legend>Drink pairings</legend>
+        <label for="mango_slushie"><input type="checkbox" id="mango_slushie" name="mango_slushie" value="mango_slushie" class="inline" />Mango Slushie</label>
+        <label for="strawberry_slushie"><input type="checkbox" id="strawberry_slushie" name="strawberry_slushie" value="strawberry_slushie" class="inline" />Strawberry Slushie</label>
+        <label for="blueberry_slushie"><input type="checkbox" id="blueberry_slushie" name="blueberry_slushie" value="blueberry_slushie" class="inline" />Blueberry Slushie</label>
+        <label for="sparkling_water"><input type="checkbox" id="sparkling_water" name="sparkling_water" value="sparkling_water" class="inline" />Sparkling Water</label>
+        <label for="lemonade"><input type="checkbox" id="lemonade" name="lemonade" value="lemonade" class="inline" />Lemonade</label>
+        <label for="tropical_punch"><input type="checkbox" id="tropical_punch" name="tropical_punch" value="tropical_punch" class="inline" />Tropical Fruit Punch</label>
+        <label for="berry_blast"><input type="checkbox" id="berry_blast" name="berry_blast" value="berry_blast" class="inline" />Berry Blast Punch</label>
+      </fieldset>
+      <!--Suggestions-->
+      <fieldset>
+        <label for="suggestions">How do you think we can improve this?</label>
+        <textarea id="suggestions" placeholder="Share your thoughts (╹ڡ╹ )" rows="5"></textarea>
+      </fieldset>
+      <input type="submit" id="submit" value="Send">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    background: url('https://images.unsplash.com/photo-1553452118-621e1f860f43?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    margin-bottom: -.2em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    background: linear-gradient(to right, #000000, #e00311, #cb4509, #cd853f, #f4a460); -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  form {
+    width: 60vw;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 2em;
+    background: hsla(39, 77%, 83%, .8);
+    border-radius: 1rem;
+  }
+  
+  fieldset {
+    border: none;
+    padding: .5rem 0;
+  }
+  
+  legend {
+    background: linear-gradient(to right, #000000, #e00311, #cb4509, #cd853f, #f4a460); -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin: .5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  input, select, textarea {
+    margin: 10px 0;
+    width: 100%;
+    min-height: 2.5em;
+    border-radius: .5rem;
+    background-color: #fefefe;
+    border: 1px solid #fefefe;
+    font-family: Bahnschrift;
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    outline-color: #9b853f;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0.2em 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.2rem;
+    background-color: #f4a460;
+    border-color: #cd853f;
+    min-width: 300px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #cd853f;
+  }
