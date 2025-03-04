@@ -2,5 +2,5 @@
 
 ## Exercises
 - [Rothko Painting](./rothko_painting/)
-- [Photo Gallery]()
+- [Photo Gallery](./photo_gallery/)
 - [Nutrition Label]()
