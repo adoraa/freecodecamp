@@ -3,4 +3,4 @@
 ## Exercises
 - [Rothko Painting](./rothko_painting/)
 - [Photo Gallery](./photo_gallery/)
-- [Nutrition Label]()
+- [Nutrition Label](./nutrition_label/)
