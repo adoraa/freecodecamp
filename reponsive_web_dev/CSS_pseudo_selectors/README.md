@@ -2,3 +2,4 @@
 
 ### Exercises
 - [Balance Sheet](./balance_sheet/)
+- [Cat Painting](./cat_painting/)
